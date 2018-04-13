@@ -5,7 +5,6 @@ public class Calculator{
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 
-
 		System.out.println("Введите первое число:");
 		float first = scanner.nextFloat();
 		System.out.println("Введите второе число:");
@@ -38,7 +37,7 @@ public class Calculator{
 	 * @return Возвращаем результат сложения
 	 */
 
-	private static float addition (float a, float b){
+	public static float addition (float a, float b){
 		return a + b;
 	}
 	/**
