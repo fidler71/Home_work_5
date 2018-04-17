@@ -27,7 +27,6 @@ public class Calculator{
 				System.out.printf("Quot: %.4f\n", division(first, second));
 				break;
 		}
-
 	}
 
 	/**
@@ -47,6 +46,7 @@ public class Calculator{
 	 * @return Возвращаем результат вычитания
 	 */
 	private static float subtraction (float a, float b) {
+
 		return a - b;
 	}
 	/**
@@ -65,6 +65,7 @@ public class Calculator{
 	 * @return Возвращаем результат деления
 	 */
 	private static float division (float a, float b){
+
 		return a / b;
 	}
 
