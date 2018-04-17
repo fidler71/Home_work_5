@@ -45,7 +45,7 @@ public class Calculator{
 	 * @param b Второе расчётное значение
 	 * @return Возвращаем результат вычитания
 	 */
-	private static float subtraction (float a, float b) {
+	public static float subtraction (float a, float b) {
 
 		return a - b;
 	}
@@ -55,7 +55,8 @@ public class Calculator{
 	 * @param b Второе расчётное значение
 	 * @return Возвращаем результат умножения
 	 */
-	private static float multiplication (float a, float b){
+	public static float multiplication (float a, float b){
+
 		return a * b;
 	}
 	/**
@@ -64,7 +65,7 @@ public class Calculator{
 	 * @param b Второе расчётное значение
 	 * @return Возвращаем результат деления
 	 */
-	private static float division (float a, float b){
+	public static float division (float a, float b){
 
 		return a / b;
 	}
